@@ -31,8 +31,8 @@ def predict_fraud(V4, V8, V10, V13, V14, V16, V21, V22, V23, V27):
 def main():
     st.title("Credit Card Fraud Detection System")
     html_temp = """
-    <div style="background-color:green;padding:10px">
-    <h2 style="color:white;text-align:center;">Portia's Credit Card Fraud Detection ML App</h2>
+    <div style="background-color:blue;padding:10px">
+    <h2 style="color:white;text-align:center;">Bright's Credit Card Fraud Detection ML App</h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
